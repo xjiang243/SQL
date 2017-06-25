@@ -1,0 +1,3 @@
+SELECT DISTINCT CITY FROM STATION 
+WHERE (MID(CITY,LENGTH(CITY),1) IN ('a','e','i','o','u'))
+AND (MID(CITY,1,1) IN ('a','e','i','o','u'))
